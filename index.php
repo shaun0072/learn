@@ -20,7 +20,7 @@ if ($result->num_rows > 0) {
         echo "Hello, my name is ". $row['first_name'] . "<br>";
     }
 } else {
-    echo "0 results";
+    echo "There were no results from database";
 }
 $conn->close();
 ?>
